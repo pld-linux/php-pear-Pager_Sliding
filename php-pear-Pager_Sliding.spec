@@ -6,11 +6,11 @@
 Summary:	%{_pearname} - Sliding Window Pager
 Summary(pl):	%{_pearname} - Stronnicowanie okienek z przewijaniem
 Name:		php-pear-%{_pearname}
-Version:	1.3
+Version:	1.4
 Release:	1
 License:	PHP 2.02
 Group:		Development/Languages/PHP
-# Source0-md5:	700fb47233b2c371991e74bf26acc453
+# Source0-md5:	e9e04b963663aec05ddd80fbc63ed35b
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
 URL:		http://pear.php.net/
 BuildRequires:	rpm-php-pearprov >= 4.0.2-98
