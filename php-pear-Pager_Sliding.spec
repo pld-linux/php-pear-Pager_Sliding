@@ -26,7 +26,7 @@ parameters. It also builds links within a specified range, and allows
 complete customization of the output (it even works with mod_rewrite).
 It is compatible with PEAR::Pager's API.
 
-This class has in PEAR status: %{_status}.
+In PEAR status of this package is: %{_status}.
 
 %description -l pl
 Klasa ta przyjmuje na wej¶ciu tablicê danych i stronnicuje je zgodnie
