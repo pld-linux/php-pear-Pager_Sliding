@@ -26,6 +26,8 @@ parameters. It also builds links within a specified range, and allows
 complete customization of the output (it even works with mod_rewrite).
 It is compatible with PEAR::Pager's API.
 
+[Deprecated] Use PEAR::Pager v2.x with $mode = 'Sliding' instead.
+
 In PEAR status of this package is: %{_status}.
 
 %description -l pl
@@ -33,6 +35,8 @@ Klasa ta przyjmuje na wej¶ciu tablicê danych i stronnicuje je zgodnie
 z ró¿nymi parametrami. Buduje tak¿e odno¶niki w ramach podanego
 zakresu oraz pozwala na pe³ne dostosowanie wyj¶cia (dzia³a nawet z
 mod_rewrite). Klasa jest kompatybilna z API PEAR::Pager.
+
+[Niezalecany] U¿yj klasy PEAR::Pager v2.x z parametrem $mode = 'Sliding'.
 
 Ta klasa ma w PEAR status: %{_status}.
 
