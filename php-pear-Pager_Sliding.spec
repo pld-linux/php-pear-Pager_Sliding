@@ -1,3 +1,4 @@
+# Note: To be removed in favor of php-pear-Pager >= 2.0
 %include	/usr/lib/rpm/macros.php
 %define		_class		Pager
 %define		_subclass	Sliding
@@ -6,12 +7,12 @@
 Summary:	%{_pearname} - Sliding Window Pager
 Summary(pl):	%{_pearname} - Stronnicowanie okienek z przewijaniem
 Name:		php-pear-%{_pearname}
-Version:	1.4
+Version:	1.5
 Release:	1
 License:	PHP 2.02
 Group:		Development/Languages/PHP
-# Source0-md5:	e9e04b963663aec05ddd80fbc63ed35b
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
+# Source0-md5:	5475918c07c6d2a5192af16ad631d691
 URL:		http://pear.php.net/package/%{_pearname}/
 BuildRequires:	rpm-php-pearprov >= 4.0.2-98
 Requires:	php-pear
