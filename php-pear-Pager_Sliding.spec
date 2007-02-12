@@ -6,7 +6,7 @@
 %define		_pearname	%{_class}_%{_subclass}
 
 Summary:	%{_pearname} - Sliding Window Pager
-Summary(pl.UTF-8):   %{_pearname} - Stronnicowanie okienek z przewijaniem
+Summary(pl.UTF-8):	%{_pearname} - Stronnicowanie okienek z przewijaniem
 Name:		php-pear-%{_pearname}
 Version:	1.6
 Release:	4
