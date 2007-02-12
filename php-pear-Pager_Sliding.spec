@@ -6,7 +6,7 @@
 %define		_pearname	%{_class}_%{_subclass}
 
 Summary:	%{_pearname} - Sliding Window Pager
-Summary(pl):	%{_pearname} - Stronnicowanie okienek z przewijaniem
+Summary(pl.UTF-8):   %{_pearname} - Stronnicowanie okienek z przewijaniem
 Name:		php-pear-%{_pearname}
 Version:	1.6
 Release:	4
@@ -32,13 +32,13 @@ It is compatible with PEAR::Pager's API.
 
 In PEAR status of this package is: %{_status}.
 
-%description -l pl
-Klasa ta przyjmuje na wej∂ciu tablicÍ danych i stronnicuje je zgodnie
-z rÛønymi parametrami. Buduje takøe odno∂niki w ramach podanego
-zakresu oraz pozwala na pe≥ne dostosowanie wyj∂cia (dzia≥a nawet z
+%description -l pl.UTF-8
+Klasa ta przyjmuje na wej≈õciu tablicƒô danych i stronnicuje je zgodnie
+z r√≥≈ºnymi parametrami. Buduje tak≈ºe odno≈õniki w ramach podanego
+zakresu oraz pozwala na pe≈Çne dostosowanie wyj≈õcia (dzia≈Ça nawet z
 mod_rewrite). Klasa jest kompatybilna z API PEAR::Pager.
 
-[Niezalecany] Uøyj klasy PEAR::Pager v2.x z parametrem $mode = 'Sliding'.
+[Niezalecany] U≈ºyj klasy PEAR::Pager v2.x z parametrem $mode = 'Sliding'.
 
 Ta klasa ma w PEAR status: %{_status}.
 
